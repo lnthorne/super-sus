@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7a45445dfd5b7b44cb9545da4e5ed41c
+timeCreated: 1496213851
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 258244
+  packageName: Fashion Show Hall 01
+  packageVersion: 2020.3.29f1  Version1
+  assetPath: Assets/Fashion Show Hall01/Bakery/ftLightmaps.cs
+  uploadId: 593728
