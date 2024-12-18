@@ -5,14 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/DemoScene.unity
+    path: Assets/Fashion Show Hall01/Fashion Show Hall01.unity
+    guid: eede1a68c2b7ba948baf74cbdb9e70cb
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6e5beef2879db44948537c3254eb5893, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f7a413fb8ce364ef6a2aa8a9a0171b60, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8482ef8498dc4417091a11835d4d900d, type: 2}
   m_UseUCBPForAssetBundles: 0
