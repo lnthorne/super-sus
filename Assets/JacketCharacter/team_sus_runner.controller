@@ -48,6 +48,7 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+  m_CollisionDetection: 1
 --- !u!1107 &9202857696567423363
 AnimatorStateMachine:
   serializedVersion: 6
