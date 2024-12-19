@@ -16,7 +16,7 @@ public class Spawner : MonoBehaviour
         while (true)
         {
             SpawnCharacter();
-            float randomWaitTime = Random.Range(5f, 7f);
+            float randomWaitTime = Random.Range(7f, 10f);
             yield return new WaitForSeconds(randomWaitTime);
         }
     }
