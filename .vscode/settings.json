@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "super-sus.sln"
+    "dotnet.defaultSolution": "SUSYBAKA.sln"
 }
