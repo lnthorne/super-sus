@@ -30,7 +30,7 @@ public class RandomJacketColor : MonoBehaviour
         jacketPanel.DisableKeyword("_EMISSION");
         jacketZipper.DisableKeyword("_EMISSION");
         
-        List<Material> materials = new() { jacketPanel, jacketPanel, jacketPanel, jacketPanel, jacketZipper, jacketZipper, jacketZipper, jacketZipper } ;
+        List<Material> materials = new() { jacketPanel, jacketZipper } ;
         meshRender.SetMaterials(materials);
     }
 }
