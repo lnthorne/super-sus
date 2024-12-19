@@ -9,18 +9,23 @@ public class RandomJacketColor : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {   
-        int red = Random.Range(0, 255);
-        int blue = Random.Range(0, 255);
-        int green = Random.Range(0, 255);
-        jacketMaterial.SetColor("_BaseColor", new Color(red, green, blue));
+        Material myJacket = new Material(jacketMaterial);
 
-        int red_rim = Random.Range(0, 255);
-        int blue_rim = Random.Range(0, 255);
-        int green_rim = Random.Range(0, 255);
+        float red = Random.Range(0, 255) / 255f;
+        float blue = Random.Range(0, 255) / 255f;
+        float green = Random.Range(0, 255) / 255f;
+        myJacket.SetColor("_BaseColor", new Color(red, green, blue));
 
-        jacketMaterial.SetColor("_RimColor", new Color(red_rim, green_rim, blue_rim));
+        float red_rim = Random.Range(0, 255) / 255f;
+        float blue_rim = Random.Range(0, 255) / 255f;
+        float green_rim = Random.Range(0, 255) / 255f;
+
+        myJacket.SetColor("_RimColor", new Color(red_rim, green_rim, blue_rim));
+
+        myJacket.SetColor("_EmissionColor", Color.black);
+        myJacket.DisableKeyword("_EMISSION");
         
-        List<Material> test = new List<Material> { jacketMaterial } ;
-        meshRender.SetMaterials(test);
+        List<Material> materials = new() { myJacket } ;
+        meshRender.SetMaterials(materials);
     }
 }
