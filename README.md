@@ -2,6 +2,11 @@
 
 This repository contains a Unity 6 project configured to run on Oculus 3 devices using the XR Interaction Toolkit (XRI) v3.0.7. It serves as a starting point for building immersive VR applications.
 
+## How to Run
+
+- You must be using Unity 6 to run this
+- You must have git lfs v3.*.* installed to use this
+
 ## Overview
 
 - **Engine:** Unity 6  
