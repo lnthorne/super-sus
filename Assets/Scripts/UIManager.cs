@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI; // For referencing the Button if needed
 
 public class StartGameController : MonoBehaviour
@@ -39,16 +40,8 @@ public class StartGameController : MonoBehaviour
 
     public void OnRestartButtonPressed()
     {
-        menuCanvas.enabled = true;
-
-        gameAudioSource.Stop();
-
-          foreach (GameObject spawner in spawnerGameObjects)
-        {
-            if (spawner != null)
-            {
-                spawner.SetActive(false);
-            }
-        }
+        // Reload the current active scene
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.buildIndex);
     }
 }
